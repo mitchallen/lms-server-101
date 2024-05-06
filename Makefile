@@ -12,7 +12,7 @@ start:
 	@lms server start
 
 stop:
-	@lms server start
+	@lms server stop
 
 dev:
 	@if [ -z "$$(lms server status)" ]; then \
